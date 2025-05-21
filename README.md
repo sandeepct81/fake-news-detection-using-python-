@@ -1,41 +1,26 @@
-# fake-news-detection-using-python-
-Detect fake news using Python and machine learning models trained on Kaggle datasets. Includes data preprocessing, model training, and evaluation.
+# 📰 Fake News Detection Using Python 
 
+This project is a machine learning-based solution to detect fake news articles using natural language processing techniques. It uses a dataset from Kaggle and Python-based libraries to build a binary classifier that predicts whether a news article is real or fake.
 
-# 📰 Fake News Detection App with Python, Streamlit & Kaggle API
+## 📌 Features
 
-A web-based application that detects whether a news article is **fake** or **real** using natural language processing and machine learning. The app uses data from Kaggle and provides a user-friendly interface using Streamlit.
+- Download dataset directly via Kaggle API
+- Text preprocessing and cleaning (stopwords removal, stemming, etc.)
+- Vectorization (TF-IDF or CountVectorizer)
+- Model training (Logistic Regression, Naive Bayes, etc.)
+- Model evaluation (accuracy, precision, recall, F1-score)
+- Easy-to-run and modular code. 
 
----
-
-## 🚀 Demo
-
-![App Screenshot](https://user-images.githubusercontent.com/your-screenshot.png)  
-👉 Try the app by pasting a news article URL into the input field.
-
----
-
-## 📦 Features
-
-- ✅ Download dataset from Kaggle via API
-- 🧹 Preprocess news data (TF-IDF)
-- 🤖 Train Logistic Regression model
-- 🌐 Extract content from news URLs (using BeautifulSoup)
-- 🧠 Predict if the news is real or fake
-- 📊 Display model accuracy
-- 🎨 Built with Streamlit for interactivity
-
----
-
-## 🗂️ Project Structure
-there is no need of any dataset to run the project just use kaggle api key. and it will automatically fetch the dataset.
-
+## 📂 Project Structure
 fake-news-detector/
 │
-├── Fake.csv # (Kaggle dataset)
-├── True.csv # (Kaggle dataset)
-├── news.csv # Merged dataset used for training
-├── app.py # Main Streamlit app
+├── data/ # Data folder (Kaggle data will be downloaded here)
+├── notebooks/ # Jupyter notebooks for exploration and testing
+├── src/ # Source code (preprocessing, training, etc.)
+│ ├── data_loader.py
+│ ├── preprocess.py
+│ └── model.py
+├── .kaggle/ # Contains kaggle.json API key
+├── requirements.txt # Python dependencies
 ├── README.md # Project documentation
-└── requirements.txt # Dependencies
-
+└── main.py # Main script to run the model 
