@@ -29,3 +29,13 @@ A web-based application that detects whether a news article is **fake** or **rea
 
 ## 🗂️ Project Structure
 there is no need of any dataset to run the project just use kaggle api key. and it will automatically fetch the dataset.
+
+fake-news-detector/
+│
+├── Fake.csv # (Kaggle dataset)
+├── True.csv # (Kaggle dataset)
+├── news.csv # Merged dataset used for training
+├── app.py # Main Streamlit app
+├── README.md # Project documentation
+└── requirements.txt # Dependencies
+
