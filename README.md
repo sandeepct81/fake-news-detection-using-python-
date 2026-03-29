@@ -1,4 +1,4 @@
-# 📰 Fake News Detection Using Python 
+# 📰 Fake News Detection system Using Python 
 
 This project is a machine learning-based solution to detect fake news articles using natural language processing techniques. It uses a dataset from Kaggle and Python-based libraries to build a binary classifier that predicts whether a news article is real or fake.
 
